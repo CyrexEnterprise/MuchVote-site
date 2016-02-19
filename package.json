@@ -1,14 +1,20 @@
 {
-  "name": "static_gulp",
+  "name": "MuchVote-Site",
   "version": "1.0.0",
-  "description": "Base for static front-end development using gulp and sass",
-  "homepage": "www.cloudoki.com",
-  "author": "Rui Molefas",
-  "email": "rui@cloudoki.com",
-  "devDependencies": {
+  "description": "MuchVote website",
+  "homepage": "muchvote.cloudoki.com",
+  "author": "Maria Ribeiro",
+  "email": "maria@cloudoki.com",
+  "scripts": {
+    "postinstall": "bower install",
+    "gulp": "gulp",
+    "static": "http-server dist/"
+  },
+  "dependencies": {
     "bower": "^1.4.1",
     "del": "^1.2.0",
     "gulp": "^3.9.0",
+    "gulp-cli": "^1.2.1",
     "gulp-concat": "^2.6.0",
     "gulp-copy": "0.0.2",
     "gulp-jshint": "^1.11.2",
@@ -16,5 +22,8 @@
     "gulp-sass": "^2.0.4",
     "gulp-uglify": "^1.2.0",
     "run-sequence": "^1.1.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
   }
 }
