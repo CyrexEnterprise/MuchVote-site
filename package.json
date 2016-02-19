@@ -1,0 +1,20 @@
+{
+  "name": "static_gulp",
+  "version": "1.0.0",
+  "description": "Base for static front-end development using gulp and sass",
+  "homepage": "www.cloudoki.com",
+  "author": "Rui Molefas",
+  "email": "rui@cloudoki.com",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-copy": "0.0.2",
+    "gulp-jshint": "^1.11.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "run-sequence": "^1.1.2"
+  }
+}
