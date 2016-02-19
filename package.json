@@ -8,6 +8,7 @@
   "scripts": {
     "postinstall": "bower install",
     "gulp": "gulp",
+    "build": "gulp build",
     "static": "http-server dist/"
   },
   "dependencies": {
