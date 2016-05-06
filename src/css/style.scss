@@ -27,6 +27,10 @@ img {
   max-width: 900px;
 }
 
+.text-shadow {
+  text-shadow: 2px 3px 9px rgba(0, 0, 0, 0.7);
+}
+
 header {
 
   .download-btns {
@@ -204,4 +208,9 @@ header {
     .screenshots img { 
     width: 100%;
   }
+}
+
+#bloglist {
+    list-style-type: none;
+    padding: 0px;
 }
